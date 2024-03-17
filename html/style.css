@@ -5,7 +5,7 @@ html{
     display:flex;
     justify-content: center;
     align-items: center;
-} #htmlタグで囲まれている全体で真ん中に表示させるようにしている。
+} 
 .circle {
   width: 100px;
   height: 100px;
