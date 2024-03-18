@@ -5,7 +5,6 @@ html{
     display:flex;
     justify-content: center;
     align-items: center;
-
 } 
 .circle {
   width: 200px;
