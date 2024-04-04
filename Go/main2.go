@@ -50,8 +50,11 @@ func countCardCombinations(a []int, s int) int {
             }
         }
     }
-
-    return dp[n][s]
+	if dp[n][s] == 0 {
+		return -1
+	}else {
+		return dp[n][s]
+	}
 }
 
 // map[int]intのkeyとvalueをkeyの昇順に出力する関数
